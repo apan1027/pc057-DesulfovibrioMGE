@@ -1,0 +1,11 @@
+^analyses$
+^data$
+^metadata$
+^docs$
+^dev$
+^licenses$
+^checks$
+^renv\.lock$
+^CITATION\.cff$
+^README\.md$
+^pc057\.Rproj$

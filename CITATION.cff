@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this manuscript-linked software release and the associated article when available."
+type: software
+title: "PC057 manuscript analysis records and frozen result workflow"
+version: 0.2.0
+date-released: 2026-10-28
+authors:
+  - family-names: Ru
+    given-names: Jinlong
+    orcid: "https://orcid.org/0000-0002-6757-6018"
+  - family-names: Pan
+    given-names: Cunli
+    orcid: "https://orcid.org/0000-0002-2595-7533"
+license: MIT

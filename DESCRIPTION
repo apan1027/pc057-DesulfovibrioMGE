@@ -1,0 +1,21 @@
+Package: pc057
+Title: Manuscript Analysis Records and Frozen Result Workflow for PC057
+Version: 0.2.0
+Authors@R: c(
+    person("Jinlong", "Ru", , "jinlong.ru@helmholtz-munich.de", role = "aut",
+           comment = c(ORCID = "0000-0002-6757-6018")),
+    person("Cunli", "Pan", , "cunli.pan@tum.de", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-2595-7533"))
+  )
+Description: Manuscript-linked analysis records for defense candidates near
+    predicted prophages in Desulfovibrio. The default R and Quarto workflow
+    verifies saved inputs and results, exports supplementary table contents
+    and redraws frozen results. Parameterised scientific-revision source is
+    provided separately and is never fitted by the default workflow.
+License: MIT + file LICENSE
+Depends: R (>= 4.5.0)
+Imports: data.table, devtools, dplyr, ggplot2, here, jsonlite, knitr,
+    patchwork, qproj, scales, tidyr, utils
+Suggests: lme4, lmerTest, MASS, stringr, tibble
+Remotes: rujinlong/qproj@4665814be79e13f7440f26b95279c014e6a5e209
+Encoding: UTF-8
