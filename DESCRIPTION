@@ -1,6 +1,6 @@
 Package: pc057
 Title: Manuscript Analysis Records and Frozen Result Workflow for PC057
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: c(
     person("Jinlong", "Ru", , "jinlong.ru@helmholtz-munich.de", role = "aut",
            comment = c(ORCID = "0000-0002-6757-6018")),

@@ -8,6 +8,8 @@ The adopted catalogue comprises 436 genomes, 6,937 defense calls, 493 separate a
 
 Requirements: R 4.5 or newer, Python 3.11 or newer, the R packages in `DESCRIPTION`, and Pandoc or Quarto. Python helpers use the standard library only. The tested package graph is recorded in `renv.lock`; qproj is pinned to `rujinlong/qproj@4665814be79e13f7440f26b95279c014e6a5e209`.
 
+R provides the analysis notebooks, statistical model source and figure code. Python handles input verification, table exports and selected data-preparation steps. A Shell script preserves the optional upstream TerL workflow. The GitHub language bar summarises recognised source-code bytes, not the share of scientific work performed in each language.
+
 From the repository root, install the declared dependencies in R, or restore the recorded package graph:
 
 ```r
@@ -66,3 +68,8 @@ Public assembly and BioSample identifiers are in `inputs/data/metadata_corrected
 Original project code is by Jinlong Ru. This release preserves his MIT copyright and license notice and records the source of every adapted scientific-revision component. Cunli Pan maintains this manuscript-linked organisation. qproj is an external dependency by Jinlong Ru, distributed under its own GPL-3 license; its implementation is not copied into this repository. Source data retain their original provenance and terms; the code license does not assert new ownership of public assemblies or third-party annotation resources.
 
 See [code reuse](docs/reuse-and-changes.md) and [LICENSE.md](LICENSE.md). Do not run the old database-import notebooks as a substitute for this release: those are excluded from the active workflow and their disposition is recorded explicitly.
+
+## Contributors
+
+- **Jinlong Ru** — Original project code and analysis workflow.
+- **Cunli Pan** — Manuscript-linked workflow organisation and repository maintenance.

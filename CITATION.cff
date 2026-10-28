@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite this manuscript-linked software release and the associated article when available."
 type: software
 title: "PC057 manuscript analysis records and frozen result workflow"
-version: 0.2.0
+version: 0.2.1
 date-released: 2026-10-28
 authors:
   - family-names: Ru
