@@ -347,5 +347,19 @@
       }
     ],
     "renderer_bootstrap_note": "A later driver-only addition selects renv/library when restored and propagates library paths; this release uses the existing library, not a freshly restored environment."
+  },
+  "presentation_update": {
+    "status": "pass",
+    "qmd_chunks_unchanged": 11,
+    "rendered_report_bodies_unchanged": 11,
+    "outputs_unchanged_against_prior_fresh_run": 28,
+    "protected_files_unchanged": 20,
+    "notebook_execution_this_update": false,
+    "contributors_order": [
+      "Jinlong Ru",
+      "Cunli Pan"
+    ],
+    "metadata_frontmatter_emitted": false,
+    "note": "Reports reformatted from saved execution records; initial scientific execution and validation records above are retained."
   }
 }
