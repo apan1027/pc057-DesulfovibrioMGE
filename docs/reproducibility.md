@@ -7,6 +7,8 @@
 | Reconstruction from annotation records | Parameterised read-only SQLite preparation, separated call-tier graph construction, and scientific-revision statistical source | Source parsed and transformations reviewed; not executed in this release |
 | Original sequence-to-annotation pipeline | Original FASTA, caller environments, reference databases and external vpipe workflow | Not supplied or rerun; no end-to-end capability claimed |
 
+Table-content validation used the manuscript's `Supplementary_Data_1_Tables.xlsx` as its reference, including headers. Its SHA-256 and the expected hashes of the 21 exported CSV files are recorded in [validation](../metadata/validation.json). The isolated-checkout comparison used the original executed checkout as its reference and the same existing R library. Later report-header and documentation changes did not rerun the full driver.
+
 The optional `dev/scientific-source/recalculate.R` refuses to run without `--allow-refit` and a fresh output directory. It contains the original conditional tests, bootstrap and models, with only path/output plumbing and the already adopted S7/S19 reporting corrections changed. Invoking it starts inferential work and is separate from the tested default workflow. It is not executed by the report driver.
 
 Optional examples, requiring the original annotation SQLite database:
