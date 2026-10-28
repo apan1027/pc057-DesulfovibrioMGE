@@ -1,17 +1,5 @@
----
-author:
-- name: Jinlong Ru
-- name: Cunli Pan
-params:
-  name: 170-figureS2-terl
-subtitle: Redraw figS2_terl from frozen records
-title: 170-figureS2-terl
----
-
-This step reads the registered frozen inputs. It does not fit models,
-run bootstrap resampling, call annotations or update the original
-database. See the [output map](../metadata/result-code-map.tsv) and
-[reproducibility scope](../docs/reproducibility.md).
+# 170-figureS2-terl
+Jinlong Ru, Cunli Pan
 
 ## Tasks
 

@@ -1,17 +1,5 @@
----
-author:
-- name: Jinlong Ru
-- name: Cunli Pan
-params:
-  name: 040-export-spatial-margins
-subtitle: Export and verify full and clone spatial margins
-title: 040-export-spatial-margins
----
-
-This step reads the registered frozen inputs. It does not fit models,
-run bootstrap resampling, call annotations or update the original
-database. See the [output map](../metadata/result-code-map.tsv) and
-[reproducibility scope](../docs/reproducibility.md).
+# 040-export-spatial-margins
+Jinlong Ru, Cunli Pan
 
 ## Tasks
 

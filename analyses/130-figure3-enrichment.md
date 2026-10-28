@@ -1,17 +1,5 @@
----
-author:
-- name: Jinlong Ru
-- name: Cunli Pan
-params:
-  name: 130-figure3-enrichment
-subtitle: Redraw fig3_enrichment from frozen records
-title: 130-figure3-enrichment
----
-
-This step reads the registered frozen inputs. It does not fit models,
-run bootstrap resampling, call annotations or update the original
-database. See the [output map](../metadata/result-code-map.tsv) and
-[reproducibility scope](../docs/reproducibility.md).
+# 130-figure3-enrichment
+Jinlong Ru, Cunli Pan
 
 ## Tasks
 

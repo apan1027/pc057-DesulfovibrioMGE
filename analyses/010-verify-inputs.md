@@ -1,17 +1,5 @@
----
-author:
-- name: Jinlong Ru
-- name: Cunli Pan
-params:
-  name: 010-verify-inputs
-subtitle: Verify all prepared frozen inputs
-title: 010-verify-inputs
----
-
-This step reads the registered frozen inputs. It does not fit models,
-run bootstrap resampling, call annotations or update the original
-database. See the [output map](../metadata/result-code-map.tsv) and
-[reproducibility scope](../docs/reproducibility.md).
+# 010-verify-inputs
+Jinlong Ru, Cunli Pan
 
 ## Tasks
 

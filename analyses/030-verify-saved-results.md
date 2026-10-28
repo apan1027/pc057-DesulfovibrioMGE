@@ -1,17 +1,5 @@
----
-author:
-- name: Jinlong Ru
-- name: Cunli Pan
-params:
-  name: 030-verify-saved-results
-subtitle: Compare ten saved RDS result components with CSV exports
-title: 030-verify-saved-results
----
-
-This step reads the registered frozen inputs. It does not fit models,
-run bootstrap resampling, call annotations or update the original
-database. See the [output map](../metadata/result-code-map.tsv) and
-[reproducibility scope](../docs/reproducibility.md).
+# 030-verify-saved-results
+Jinlong Ru, Cunli Pan
 
 ## Tasks
 

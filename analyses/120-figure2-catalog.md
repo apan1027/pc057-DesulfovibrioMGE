@@ -1,17 +1,5 @@
----
-author:
-- name: Jinlong Ru
-- name: Cunli Pan
-params:
-  name: 120-figure2-catalog
-subtitle: Redraw fig2_catalog from frozen records
-title: 120-figure2-catalog
----
-
-This step reads the registered frozen inputs. It does not fit models,
-run bootstrap resampling, call annotations or update the original
-database. See the [output map](../metadata/result-code-map.tsv) and
-[reproducibility scope](../docs/reproducibility.md).
+# 120-figure2-catalog
+Jinlong Ru, Cunli Pan
 
 ## Tasks
 

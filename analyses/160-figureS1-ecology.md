@@ -1,17 +1,5 @@
----
-author:
-- name: Jinlong Ru
-- name: Cunli Pan
-params:
-  name: 160-figureS1-ecology
-subtitle: Redraw figS1_ecology from frozen records
-title: 160-figureS1-ecology
----
-
-This step reads the registered frozen inputs. It does not fit models,
-run bootstrap resampling, call annotations or update the original
-database. See the [output map](../metadata/result-code-map.tsv) and
-[reproducibility scope](../docs/reproducibility.md).
+# 160-figureS1-ecology
+Jinlong Ru, Cunli Pan
 
 ## Tasks
 

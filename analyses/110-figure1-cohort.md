@@ -1,17 +1,5 @@
----
-author:
-- name: Jinlong Ru
-- name: Cunli Pan
-params:
-  name: 110-figure1-cohort
-subtitle: Redraw fig1_cohort from frozen records
-title: 110-figure1-cohort
----
-
-This step reads the registered frozen inputs. It does not fit models,
-run bootstrap resampling, call annotations or update the original
-database. See the [output map](../metadata/result-code-map.tsv) and
-[reproducibility scope](../docs/reproducibility.md).
+# 110-figure1-cohort
+Jinlong Ru, Cunli Pan
 
 ## Tasks
 
