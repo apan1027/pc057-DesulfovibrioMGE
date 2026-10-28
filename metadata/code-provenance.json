@@ -1,0 +1,62 @@
+[
+  {
+    "destination": "R/figures.R",
+    "source": "outputs/pc057-microbial-genomics-clean-2026-10-28/data-archive/scripts/redraw_from_frozen.R",
+    "source_sha256": "16c314032b7807fffa2f4948697e8bdf56d7fb5398a7aea039fda83cfa5a54f6",
+    "change": "Split plot blocks into named functions; unchanged plot expressions and fixed display seed."
+  },
+  {
+    "destination": "dev/verify_saved_results.R",
+    "source": "outputs/pc057-microbial-genomics-clean-2026-10-28/data-archive/scripts/verify_saved_results.R",
+    "source_sha256": "55771df3c204abc85cb23b4a20f9359a9c085da0dcc0856e664fd6f82b0f6da5",
+    "change": "Replace bundle path discovery with explicit CLI input."
+  },
+  {
+    "destination": "dev/export_spatial_margins.py",
+    "source": "outputs/pc057-microbial-genomics-clean-2026-10-28/data-archive/scripts/export_spatial_margins.py",
+    "source_sha256": "f6240c9f1e8411c8aa1b192725f0beefd5aa94d17a1e8449b4491e420da4919a",
+    "change": "Replace bundle path discovery with explicit CLI input."
+  },
+  {
+    "destination": "dev/export_supplementary_tables.py",
+    "source": "outputs/pc057-microbial-genomics-clean-2026-10-28/data-archive/historical-source/build_workbook.py",
+    "source_sha256": "5721d22c705506288d875e73c30075923613c9ec6f1b376aad437d01ad294ba5",
+    "change": "Export CSV contents only; use frozen S8 evidence and current S7/S19; no source input writes."
+  },
+  {
+    "destination": "dev/scientific-source/prepare_data.py",
+    "source": "outputs/pc057-microbial-genomics-clean-2026-10-28/data-archive/historical-source/prepare_data.py",
+    "source_sha256": "ea5265e5dbe7f180521bea271a239d520034b722be78c0a1703b9697e3a465c5",
+    "change": "Parameterise database/provenance/output paths; omit manuscript copying and internal staging."
+  },
+  {
+    "destination": "dev/scientific-source/build_call_tiers.py",
+    "source": "outputs/pc057-microbial-genomics-clean-2026-10-28/data-archive/historical-source/build_call_tiers.py",
+    "source_sha256": "7bf43b6846268f7182a8a453746a0ad8f39c4adf37d1ebdda0c63ed3e0fa4275",
+    "change": "Parameterise input and fresh output paths; retain original tier construction."
+  },
+  {
+    "destination": "dev/scientific-source/recalculate.R",
+    "source": "outputs/pc057-microbial-genomics-clean-2026-10-28/data-archive/historical-source/recalculate.R",
+    "source_sha256": "fd5dab58d6982d2c201d79423a850594ce2ee2e11f82e98bc809aef2d1f84c94",
+    "change": "Explicit refit guard and fresh paths; inherit reporting-only S7 scope labels and all six S19 margin exports."
+  },
+  {
+    "destination": "dev/upstream-source/arg_vf_integration.R",
+    "source": "local_edits/analyses/06-arg-vf-cargo.qmd",
+    "source_sha256": "94c13125068e9548ae02637c6d7fe10cb18b44620a957302ef434098a08d57d3",
+    "change": "Extract pure ARG/VF integration expressions; English comments and explicit inputs; omit database writes."
+  },
+  {
+    "destination": "dev/upstream-source/terl_select_seqs.py",
+    "source": "local_edits/scripts/terl_select_seqs.py",
+    "source_sha256": "63c7a411c5e87d42625c19c369c4f29ec90855bf5e88c234cc4c06aac8392661",
+    "change": "Original source retained unchanged; not executed."
+  },
+  {
+    "destination": "dev/upstream-source/build_terl_tree.sh",
+    "source": "local_edits/scripts/build_terl_tree.sh",
+    "source_sha256": "a460a5e898ff287d93a3439163a2274330a77e208bb795ac5bcffd7f2221053e",
+    "change": "Require explicit paths and fresh output; algorithms/reference filenames unchanged; not executed."
+  }
+]

@@ -1,0 +1,365 @@
+{
+  "version": "2026.10.28",
+  "files": [
+    {
+      "path": "inputs/data/analysis_summary.json",
+      "bytes": 549,
+      "sha256": "f8330014afcd6d93db9fedb71e15e7f6ec5aa5f3a3c53b2127d9329bddcd7fd9"
+    },
+    {
+      "path": "inputs/data/arg_consensus.csv",
+      "bytes": 254744,
+      "sha256": "4827ab5efc7275f1901dd939cd3965390e6202a9aa7129da63f2cd2262185aa8"
+    },
+    {
+      "path": "inputs/data/bioproject_nesting_corrected.csv",
+      "bytes": 2838,
+      "sha256": "19c27d621db11b99472f5bccba021a7a4423eaeecbb3496701e49d21aa099d75"
+    },
+    {
+      "path": "inputs/data/call_tiers.csv",
+      "bytes": 4064366,
+      "sha256": "7d4bfc5066f8cfbb127a65bc6c13a82eaa2155e8807167c07b5506d6e8b4662e"
+    },
+    {
+      "path": "inputs/data/calls_classified.csv",
+      "bytes": 1275683,
+      "sha256": "214c833c657b1f4053b5d2333d9d322f8059411893f8325590a75b40092bf05e"
+    },
+    {
+      "path": "inputs/data/calls_raw.csv",
+      "bytes": 1277055,
+      "sha256": "b465721506bdb8ac149a5e28dec881c83848280ff46e76a309e34ee28422021b"
+    },
+    {
+      "path": "inputs/data/checkv_quality.csv",
+      "bytes": 475088,
+      "sha256": "be47f3ead8d681cf6ddb14f8d2ddd28e29af894725b38132c45c28d8b0fa5f13"
+    },
+    {
+      "path": "inputs/data/cluster_intervals_corrected.csv",
+      "bytes": 40215,
+      "sha256": "fd2a7caca323ef9f9f2ce064b1955e05e44a0c8731097778ba1bb84b7c3fd7c1"
+    },
+    {
+      "path": "inputs/data/cohort_ecology_counts.csv",
+      "bytes": 211,
+      "sha256": "1a2af6bc8e78850b7b84972c3d286b577e4e1b8cf1036e38efbfb07378076e1e"
+    },
+    {
+      "path": "inputs/data/contig_map.csv",
+      "bytes": 5646934,
+      "sha256": "82096e685e134dafd8bd2942c98759afbc144b4b07ca6e4a6c452f4fb89f798b"
+    },
+    {
+      "path": "inputs/data/coordinate_relation_differences.csv",
+      "bytes": 34,
+      "sha256": "5ea75fd60af01e05db8397e1affd950bb6b74d0826f5fb80c5890ccf3f8be778"
+    },
+    {
+      "path": "inputs/data/ecology_models_corrected.csv",
+      "bytes": 5433,
+      "sha256": "77c7178c6202c3ecbfc32cc669d5b3299cf5954e6e1540a5996658da39e928a8"
+    },
+    {
+      "path": "inputs/data/enrichment_corrected.csv",
+      "bytes": 25161,
+      "sha256": "849614623881b35265968641436ca1ca2231170aba1cb17ddcd27ef6d3a7a1b7"
+    },
+    {
+      "path": "inputs/data/genome_mge_summary.csv",
+      "bytes": 33694,
+      "sha256": "bf5687a3668c4b1de1c0b8d46410337606dd6fc2e5ac23586657fddefb321876"
+    },
+    {
+      "path": "inputs/data/metadata_audit.csv",
+      "bytes": 147802,
+      "sha256": "c57059ef777febd5bfea261701bc9664fef09d9e5fff83d70d02d063dc2e6602"
+    },
+    {
+      "path": "inputs/data/metadata_corrected.csv",
+      "bytes": 207023,
+      "sha256": "6fa68e3b657e1b70b7976fc4a18e4b1ecb67d7dfe7e0ab4260f23258cca06cb2"
+    },
+    {
+      "path": "inputs/data/model_diagnostics.csv",
+      "bytes": 2421,
+      "sha256": "34f35bdb81f3530ef01fd4a94608de5697b3042477f69fa1bf1eddd09abb476f"
+    },
+    {
+      "path": "inputs/data/neighborhood_figure_genes.csv",
+      "bytes": 26549,
+      "sha256": "cc707bf8f4a71f9b84b7b7ae9a506d2f86b870161ce9f1da8f0119c12fc79e8e"
+    },
+    {
+      "path": "inputs/data/neighborhood_representatives.csv",
+      "bytes": 981,
+      "sha256": "c1e01c2c2b3de7b33a54f9b29805430092c23d155313b6ad01728a4fff97fb63"
+    },
+    {
+      "path": "inputs/data/outgroup_calls.csv",
+      "bytes": 249737,
+      "sha256": "df0dd3342ca1d3415320f4fa36d905f7bfc17fddf079fc9daed325daf790c0de"
+    },
+    {
+      "path": "inputs/data/outgroup_calls_classified.csv",
+      "bytes": 389447,
+      "sha256": "7c33cf782e78d073d4dba72f1278b753cbe61d21ff57c1fefbe8fa3f37f004fc"
+    },
+    {
+      "path": "inputs/data/outgroup_corrected.csv",
+      "bytes": 204150,
+      "sha256": "a406404c54bfb0ab3e5f14a686dfca5db64326677025f223e60c60c296f95583"
+    },
+    {
+      "path": "inputs/data/outgroup_models_corrected.csv",
+      "bytes": 3049,
+      "sha256": "fd7c4d462e4882b238a54dacda3e7be6caf891a0ccab685345bc3d06ff0a1d5b"
+    },
+    {
+      "path": "inputs/data/outgroup_per_genome.csv",
+      "bytes": 37474,
+      "sha256": "cf8a2ece0e9fa31f9c714139b55c00183cf291cd0ab3c556e185367224638230"
+    },
+    {
+      "path": "inputs/data/outgroup_tests_corrected.csv",
+      "bytes": 4103,
+      "sha256": "c152d5afa4387b053ae2188d5a88721b1ab0f033310b8b39e43d49dad6a94f48"
+    },
+    {
+      "path": "inputs/data/overlaps.csv",
+      "bytes": 26162,
+      "sha256": "67be4cbffa1f9cb0e862ecf3e4c2f3c3024a003e7d049530d72499af9ce3ea7e"
+    },
+    {
+      "path": "inputs/data/padloc_hits.csv",
+      "bytes": 13091690,
+      "sha256": "60a797a63768f34122f22be59d6f3d32a95fb69e475babe2a4a762978bd2752d"
+    },
+    {
+      "path": "inputs/data/pdcs31_call_evidence.csv",
+      "bytes": 11173,
+      "sha256": "72b80343b72291c72362e0970d3374a304a6518b0d3cb911c11795c9d4d70f4c"
+    },
+    {
+      "path": "inputs/data/pdcs31_contig_features.csv",
+      "bytes": 1414754,
+      "sha256": "c501b0bc93e51511fdbd03bb85d79a7ad93871c76138a61ca7095bce94c3f16a"
+    },
+    {
+      "path": "inputs/data/pdcs31_gene_position_null.csv",
+      "bytes": 673,
+      "sha256": "74fb5a2495476113d77275b1137ae9504eaf715c72f4df4911bab1a28390fb85"
+    },
+    {
+      "path": "inputs/data/pdcs31_gene_position_strata.csv",
+      "bytes": 6326,
+      "sha256": "5678484abfe5ba784711a7bebdb359c2bfa262c7fc59e971e631a92ef9ce08cd"
+    },
+    {
+      "path": "inputs/data/per_genome_corrected.csv",
+      "bytes": 1482642,
+      "sha256": "13a558d4ddfd2c46701409e7ddd7b3fb9692efc86728242dc7800abb8d1f4477"
+    },
+    {
+      "path": "inputs/data/plasmid_candidates.csv",
+      "bytes": 99831,
+      "sha256": "e99cdd4eb37df98968c62bec3d1562640dd1fa49aadd02c6cc4ae1c96e97196b"
+    },
+    {
+      "path": "inputs/data/preparation_summary.json",
+      "bytes": 25235,
+      "sha256": "8daf5ae7c55eac4212b52b2539d11c6057f96c7c63d3e1152928e4e0a9ec742b"
+    },
+    {
+      "path": "inputs/data/prophage_consensus.csv",
+      "bytes": 54088,
+      "sha256": "522d18923dbde40145a22dcaae4166bbfec801af175dad63fd65f9c55e7dc5d9"
+    },
+    {
+      "path": "inputs/data/shared_species_corrected.csv",
+      "bytes": 2282,
+      "sha256": "10fc1c1f8b75fff56919d467f10c91a79c74573b1ae23dc9384dab02fd7853ee"
+    },
+    {
+      "path": "inputs/data/tier_totals.csv",
+      "bytes": 421,
+      "sha256": "702dbf5f40b26446b87755f5e1613c87ad2fa6e8d510a32c220c3a2650fdaf84"
+    },
+    {
+      "path": "inputs/data/vcontact3_assignments.csv",
+      "bytes": 1489367,
+      "sha256": "e934964ce6835fc630aaa0d7e666f11ea5dc51ae5d47ae76c15937a7775ee8af"
+    },
+    {
+      "path": "inputs/data/vf_consensus.csv",
+      "bytes": 34030653,
+      "sha256": "2bcee04642e6b45d36ae3385f2652acdd71a13a9f52bef64bbea2d482c2b77f0"
+    },
+    {
+      "path": "inputs/data/viral_catalog.csv",
+      "bytes": 421055,
+      "sha256": "b1af04350e6e73a92bf2fb4c024f66bc010b79eb21f02bb51ffc075909c7b334"
+    },
+    {
+      "path": "inputs/models/R-session-info-original.txt",
+      "bytes": 1523,
+      "sha256": "70375190a7c7666a2a761465c1e938f51c9e6bfaf78ddb8867cc6108858192e7"
+    },
+    {
+      "path": "inputs/models/model_fits.rds",
+      "bytes": 1121579,
+      "sha256": "f12d7013d223b98316dd1a6f321ce1e689f5e0862c70850908bafa4ff2a94886"
+    },
+    {
+      "path": "inputs/models/revised_results.rds",
+      "bytes": 152202,
+      "sha256": "e446974913d1a55a504635bc78987d5dd386485c555df713db2fd3b3d9b58c68"
+    },
+    {
+      "path": "inputs/previous-export/cluster_intervals_corrected.csv",
+      "bytes": 36879,
+      "sha256": "8bfeda7c62b9e244d57e29fba03a958f01a16325272b29a68f4bb967e7a969b6"
+    },
+    {
+      "path": "inputs/previous-export/pdcs31_gene_position_strata.csv",
+      "bytes": 722,
+      "sha256": "e79f350e47b484a54c420a9d7345eadc098887b649f5b078ecc8479d9ae106ed"
+    },
+    {
+      "path": "inputs/previous-export/workbook_manifest.json",
+      "bytes": 3106,
+      "sha256": "49ac89be17beed16dd469673d691eccd87ece127134ab283443a36cb7316fe20"
+    },
+    {
+      "path": "inputs/provenance/ncbi_summary.jsonl",
+      "bytes": 2062475,
+      "sha256": "0449a03017d42d17c9e3e350d2fda1c70db47e376c1a09189f22409ea4489cf7"
+    },
+    {
+      "path": "inputs/provenance/table_1705_defense_canonical_map.csv",
+      "bytes": 681285,
+      "sha256": "efa0ca7c84b90298fc10d71755ac4ff8d94b1bdfea791b535f2d098a3273ebdb"
+    },
+    {
+      "path": "inputs/provenance/table_1907_genome_provenance.csv",
+      "bytes": 58488,
+      "sha256": "e498a4bf7954125031cdd5f88797528c0ef01b83e2faac802509dfc44d4cca93"
+    },
+    {
+      "path": "supporting-secondary/TerL/GpA_ATPase_terl.log",
+      "bytes": 34477,
+      "sha256": "61ac1820362081333905dd248ac8b0ffc73c9cbf8c6ceee43ccf6f90cf8c39c6"
+    },
+    {
+      "path": "supporting-secondary/TerL/GpA_ATPase_terl.treefile",
+      "bytes": 11498,
+      "sha256": "b3bafd71d8f2815a30d1477debc8d368834bc38dd9552c4afd92d304b2cb8481"
+    },
+    {
+      "path": "supporting-secondary/TerL/Terminase_6N_terl.log",
+      "bytes": 41473,
+      "sha256": "8467317a43fc30fef44c4e6b915920debe609320387d72cd83dc878e6a6914e5"
+    },
+    {
+      "path": "supporting-secondary/TerL/Terminase_6N_terl.treefile",
+      "bytes": 16004,
+      "sha256": "89d9af3b75970b5704528b0dfb1c18f00fa96ecf22e11946bbcdf6c7b3dc44dd"
+    },
+    {
+      "path": "supporting-secondary/TerL/table_1103_terl_clade_recovery.csv",
+      "bytes": 6127,
+      "sha256": "06d5f36172d06452c15c5d0c908debd66d40c9bd1d80d4cf7c5e74acf2fb0ecc"
+    },
+    {
+      "path": "supporting-secondary/TerL/terl_recovery_by_family.tsv",
+      "bytes": 33814,
+      "sha256": "b06510b8c1ea5b7ff4b79bb12fcd02000debf6e6c3846c42a9bf94dfae52b813"
+    },
+    {
+      "path": "supporting-secondary/TerL/terl_taxa_metadata.tsv",
+      "bytes": 99728,
+      "sha256": "e5fb447550f6ae04a0058585fa0b1b04bfecb1e9b80a2eb004cc317a189ae3fe"
+    },
+    {
+      "path": "supporting-secondary/outgroup/contig_sizes_3kb.tsv",
+      "bytes": 17312,
+      "sha256": "095052137331ba148344016daee03826cd82b23def4c79bd640bc51837c59e9b"
+    },
+    {
+      "path": "supporting-secondary/outgroup/outgroup_checkm2_quality.tsv",
+      "bytes": 11348,
+      "sha256": "9efca9811a4911bc39eb328ca024fcbc416e3aa2778dbb49b6f62021d78efe1f"
+    },
+    {
+      "path": "supporting-secondary/outgroup/outgroup_defense_systems.tsv",
+      "bytes": 246315,
+      "sha256": "7d7aa7d72ffe67cad72c7a8d78f65a5b738376d3bea73f864f696eda34634d9c"
+    },
+    {
+      "path": "supporting-secondary/outgroup/outgroup_family_map.tsv",
+      "bytes": 10721,
+      "sha256": "3ef4a8969fc52bf0a18ba8e829499cf7052805d616d1a4fbae586a93c6b311c1"
+    },
+    {
+      "path": "supporting-secondary/outgroup/outgroup_prophage_consensus2.tsv",
+      "bytes": 4443,
+      "sha256": "befc92ae915d3d82efc709d8b6c8adda804377cf2422c26cf80b8444c51c38b2"
+    },
+    {
+      "path": "supporting-secondary/outgroup/provirus_genomad_desulfovibrio.tsv",
+      "bytes": 21022,
+      "sha256": "dea13d620f4f348a3f2daa51f4639983b0ff51be3d604ff47cb818381af6b5ef"
+    },
+    {
+      "path": "supporting-secondary/outgroup/provirus_genomad_outgroup.tsv",
+      "bytes": 4041,
+      "sha256": "2373d159087025c4148eaf9c7edbf3e23c1d0df15cb3c2baf6acd6c818cb953b"
+    },
+    {
+      "path": "supporting-secondary/outgroup_assembly_register.csv",
+      "bytes": 24030,
+      "sha256": "5afe240cc509f2088905990848559769d29cab699a59e62bcf387d86d8a63bdd"
+    },
+    {
+      "path": "supporting-secondary/table_2502_plasme_contigs.csv",
+      "bytes": 4517,
+      "sha256": "96963322b79b3cb06812141669e6ffa7aa3b534bc58d3eb450e661ac898790a6"
+    },
+    {
+      "path": "frozen-figures/fig1_cohort.png",
+      "bytes": 458262,
+      "sha256": "dce2273f2d82ebc53397f01838e4ffc8cd9d320c3cb1616da5912c923b7d853f"
+    },
+    {
+      "path": "frozen-figures/fig2_catalog.png",
+      "bytes": 323457,
+      "sha256": "432cc6cdc2e6c0e6e501934457413b28916385d0df52f63536ab26ebf21d5507"
+    },
+    {
+      "path": "frozen-figures/fig3_enrichment.png",
+      "bytes": 155409,
+      "sha256": "1a854e06d4ba85fe5adcbc8f69a400b2a35ea22d85602c944898b091b82623bd"
+    },
+    {
+      "path": "frozen-figures/fig4_neighborhood.png",
+      "bytes": 255549,
+      "sha256": "68a202922f9574e5f1f2e240acf7c0f906a43f1b78bc057de3718cf526efda36"
+    },
+    {
+      "path": "frozen-figures/fig5_outgroup.png",
+      "bytes": 362149,
+      "sha256": "2e4b0376d024c23814a05d51cfd5f2498b01efa6bb40f050dfed8400f9fa6f6b"
+    },
+    {
+      "path": "frozen-figures/figS1_ecology.png",
+      "bytes": 100419,
+      "sha256": "918a49bc98aa9f5ecf3ee06f249a3fb43d0ed6f511cbfcc759925f3dee982834"
+    },
+    {
+      "path": "frozen-figures/figS2_terl.png",
+      "bytes": 531329,
+      "sha256": "0ff74259b2f1e9d0d04463759fb64ccd2ebea641b884b40fd9dce7151d08ad98"
+    }
+  ]
+}

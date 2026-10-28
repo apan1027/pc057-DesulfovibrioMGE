@@ -1,0 +1,57 @@
+[
+  {
+    "step": "010-verify-inputs",
+    "purpose": "Verify all prepared frozen inputs",
+    "operation": "verify"
+  },
+  {
+    "step": "020-export-tables",
+    "purpose": "Export Tables S1 to S21 from frozen records",
+    "operation": "tables"
+  },
+  {
+    "step": "030-verify-saved-results",
+    "purpose": "Compare ten saved RDS result components with CSV exports",
+    "operation": "saved"
+  },
+  {
+    "step": "040-export-spatial-margins",
+    "purpose": "Export and verify full and clone spatial margins",
+    "operation": "margins"
+  },
+  {
+    "step": "110-figure1-cohort",
+    "purpose": "Redraw fig1_cohort from frozen records",
+    "operation": "fig1_cohort"
+  },
+  {
+    "step": "120-figure2-catalog",
+    "purpose": "Redraw fig2_catalog from frozen records",
+    "operation": "fig2_catalog"
+  },
+  {
+    "step": "130-figure3-enrichment",
+    "purpose": "Redraw fig3_enrichment from frozen records",
+    "operation": "fig3_enrichment"
+  },
+  {
+    "step": "140-figure4-neighborhood",
+    "purpose": "Redraw fig4_neighborhood from frozen records",
+    "operation": "fig4_neighborhood"
+  },
+  {
+    "step": "150-figure5-outgroup",
+    "purpose": "Redraw fig5_outgroup from frozen records",
+    "operation": "fig5_outgroup"
+  },
+  {
+    "step": "160-figureS1-ecology",
+    "purpose": "Redraw figS1_ecology from frozen records",
+    "operation": "figS1_ecology"
+  },
+  {
+    "step": "170-figureS2-terl",
+    "purpose": "Redraw figS2_terl from frozen records",
+    "operation": "figS2_terl"
+  }
+]

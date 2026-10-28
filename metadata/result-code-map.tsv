@@ -1,0 +1,29 @@
+manuscript_output	notebook	implementation	inputs_or_recipe	scope
+Figure 1	analyses/110-figure1-cohort.qmd	R/figures.R	meta; metadata_corrected.csv	Frozen cohort counts and quality
+Figure 2	analyses/120-figure2-catalog.qmd	R/figures.R	per_genome; per_genome_corrected.csv	Separate activity catalogues and 397 confirmed-gut records
+Figure 3	analyses/130-figure3-enrichment.qmd	R/figures.R	enrichment; cluster_intervals	Saved conditional results and carrier-frame intervals
+Figure 4	analyses/140-figure4-neighborhood.qmd	R/figures.R	call_tiers.csv; pdcs31_contig_features.csv; prophage_consensus.csv; spatial	Saved neighbourhood coordinates and nested distance results
+Figure 5	analyses/150-figure5-outgroup.qmd	R/figures.R	outgroup; outgroup_corrected.csv	397 confirmed-gut genomes versus 95 selected eligible outgroups
+Figure S1	analyses/160-figureS1-ecology.qmd	R/figures.R	ecology_models; ecology_models_corrected.csv	Saved ecology model estimates, not refitted
+Figure S2	analyses/170-figureS2-terl.qmd	R/figures.R	frozen-figures/figS2_terl.png; supporting-secondary/TerL	Canonical image copy; trees and marker records archived, not inferred
+S1_Metadata	analyses/020-export-tables.qmd	dev/export_supplementary_tables.py	metadata_corrected.csv	436 archived records; CSV contents only
+S2_Load	analyses/020-export-tables.qmd	dev/export_supplementary_tables.py	per_genome_corrected.csv, pivoted to one row per genome	436 archived records; CSV contents only
+S3_DefenseCalls	analyses/020-export-tables.qmd	dev/export_supplementary_tables.py	calls_classified.csv, Defense + Defense_candidate	6937 archived records; CSV contents only
+S4_AntiDefense	analyses/020-export-tables.qmd	dev/export_supplementary_tables.py	calls_classified.csv, Antidefense only	493 archived records; CSV contents only
+S5_MergedDefense	analyses/020-export-tables.qmd	dev/export_supplementary_tables.py	call_tiers.csv, T3 defense	5217 archived records; CSV contents only
+S6_Enrichment	analyses/020-export-tables.qmd	dev/export_supplementary_tables.py	enrichment_corrected.csv	145 archived records; CSV contents only
+S7_ClusterIntervals	analyses/020-export-tables.qmd	dev/export_supplementary_tables.py	cluster_intervals_corrected.csv	290 archived records; CSV contents only
+S8_PDC_S31	analyses/020-export-tables.qmd	dev/export_supplementary_tables.py	pdcs31_call_evidence.csv; raw PADLOC matches and specimen records	42 archived records; CSV contents only
+S9_SpatialNull	analyses/020-export-tables.qmd	dev/export_supplementary_tables.py	pdcs31_gene_position_null.csv	6 archived records; CSV contents only
+S10_EcologyModels	analyses/020-export-tables.qmd	dev/export_supplementary_tables.py	ecology_models_corrected.csv + model_diagnostics.csv; Wald intervals, nominal P; NB boundary flagged	33 archived records; CSV contents only
+S11_Outgroup	analyses/020-export-tables.qmd	dev/export_supplementary_tables.py	outgroup_corrected.csv; 593 genomes x3 conventions; use qc_pass and ecology scope	1779 archived records; CSV contents only
+S12_OutgroupTests	analyses/020-export-tables.qmd	dev/export_supplementary_tables.py	outgroup_tests_corrected.csv	48 archived records; CSV contents only
+S13_OutgroupModels	analyses/020-export-tables.qmd	dev/export_supplementary_tables.py	outgroup_models_corrected.csv; genome-level exploratory adjustment	18 archived records; CSV contents only
+S14_ARG	analyses/020-export-tables.qmd	dev/export_supplementary_tables.py	archived arg_consensus, unchanged	1198 archived records; CSV contents only
+S15_VF_High	analyses/020-export-tables.qmd	dev/export_supplementary_tables.py	archived vf_consensus, HIGH tier, unchanged	12782 archived records; CSV contents only
+S16_ViralCatalog	analyses/020-export-tables.qmd	dev/export_supplementary_tables.py	archived viral_catalog + checkv_quality, unchanged	3461 archived records; CSV contents only
+S17_ViralLabels	analyses/020-export-tables.qmd	dev/export_supplementary_tables.py	archived vcontact3_assignments, unchanged	3325 archived records; CSV contents only
+S18_MetadataAudit	analyses/020-export-tables.qmd	dev/export_supplementary_tables.py	metadata_audit.csv; original/revised labels and source evidence	436 archived records; CSV contents only
+S19_SpatialStrata	analyses/020-export-tables.qmd	dev/export_supplementary_tables.py	pdcs31_gene_position_strata.csv; full/clone sets at 0, 5 and 10 kb; 177 strata	177 archived records; CSV contents only
+S20_SharedSpecies	analyses/020-export-tables.qmd	dev/export_supplementary_tables.py	shared_species_corrected.csv; assigned species only	53 archived records; CSV contents only
+S21_NeighborhoodGenes	analyses/020-export-tables.qmd	dev/export_supplementary_tables.py	neighborhood_figure_genes.csv; Figure4 representative windows	100 archived records; CSV contents only

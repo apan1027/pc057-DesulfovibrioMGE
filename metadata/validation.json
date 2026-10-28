@@ -1,0 +1,351 @@
+{
+  "date": "2026-10-28",
+  "status": "pass",
+  "executed_notebooks": 11,
+  "input_payloads": 72,
+  "tables": [
+    {
+      "table": "S1_Metadata",
+      "pass_": true,
+      "rows": 436,
+      "cells_checked": 16606,
+      "failures": []
+    },
+    {
+      "table": "S2_Load",
+      "pass_": true,
+      "rows": 436,
+      "cells_checked": 8740,
+      "failures": []
+    },
+    {
+      "table": "S3_DefenseCalls",
+      "pass_": true,
+      "rows": 6937,
+      "cells_checked": 152636,
+      "failures": []
+    },
+    {
+      "table": "S4_AntiDefense",
+      "pass_": true,
+      "rows": 493,
+      "cells_checked": 10868,
+      "failures": []
+    },
+    {
+      "table": "S5_MergedDefense",
+      "pass_": true,
+      "rows": 5217,
+      "cells_checked": 104360,
+      "failures": []
+    },
+    {
+      "table": "S6_Enrichment",
+      "pass_": true,
+      "rows": 145,
+      "cells_checked": 2774,
+      "failures": []
+    },
+    {
+      "table": "S7_ClusterIntervals",
+      "pass_": true,
+      "rows": 290,
+      "cells_checked": 4365,
+      "failures": []
+    },
+    {
+      "table": "S8_PDC_S31",
+      "pass_": true,
+      "rows": 42,
+      "cells_checked": 1032,
+      "failures": []
+    },
+    {
+      "table": "S9_SpatialNull",
+      "pass_": true,
+      "rows": 6,
+      "cells_checked": 56,
+      "failures": []
+    },
+    {
+      "table": "S10_EcologyModels",
+      "pass_": true,
+      "rows": 33,
+      "cells_checked": 510,
+      "failures": []
+    },
+    {
+      "table": "S11_Outgroup",
+      "pass_": true,
+      "rows": 1779,
+      "cells_checked": 32040,
+      "failures": []
+    },
+    {
+      "table": "S12_OutgroupTests",
+      "pass_": true,
+      "rows": 48,
+      "cells_checked": 392,
+      "failures": []
+    },
+    {
+      "table": "S13_OutgroupModels",
+      "pass_": true,
+      "rows": 18,
+      "cells_checked": 228,
+      "failures": []
+    },
+    {
+      "table": "S14_ARG",
+      "pass_": true,
+      "rows": 1198,
+      "cells_checked": 13189,
+      "failures": []
+    },
+    {
+      "table": "S15_VF_High",
+      "pass_": true,
+      "rows": 12782,
+      "cells_checked": 421839,
+      "failures": []
+    },
+    {
+      "table": "S16_ViralCatalog",
+      "pass_": true,
+      "rows": 3461,
+      "cells_checked": 58854,
+      "failures": []
+    },
+    {
+      "table": "S17_ViralLabels",
+      "pass_": true,
+      "rows": 3325,
+      "cells_checked": 89802,
+      "failures": []
+    },
+    {
+      "table": "S18_MetadataAudit",
+      "pass_": true,
+      "rows": 436,
+      "cells_checked": 5681,
+      "failures": []
+    },
+    {
+      "table": "S19_SpatialStrata",
+      "pass_": true,
+      "rows": 177,
+      "cells_checked": 1246,
+      "failures": []
+    },
+    {
+      "table": "S20_SharedSpecies",
+      "pass_": true,
+      "rows": 53,
+      "cells_checked": 270,
+      "failures": []
+    },
+    {
+      "table": "S21_NeighborhoodGenes",
+      "pass_": true,
+      "rows": 100,
+      "cells_checked": 1717,
+      "failures": []
+    }
+  ],
+  "total_table_cells": 927205,
+  "saved_RDS_components": 10,
+  "spatial_strata": 177,
+  "figures": [
+    {
+      "figure": "fig1_cohort",
+      "dimensions": [
+        3040,
+        2560
+      ],
+      "sha256": "dce2273f2d82ebc53397f01838e4ffc8cd9d320c3cb1616da5912c923b7d853f",
+      "visually_inspected": true
+    },
+    {
+      "figure": "fig2_catalog",
+      "dimensions": [
+        2880,
+        2240
+      ],
+      "sha256": "9b52ac21ff05bd03707b5c67e1b17ec5348ee3b27a61a8942d6c2a287c9af393",
+      "visually_inspected": true
+    },
+    {
+      "figure": "fig3_enrichment",
+      "dimensions": [
+        3080,
+        1520
+      ],
+      "sha256": "1a854e06d4ba85fe5adcbc8f69a400b2a35ea22d85602c944898b091b82623bd",
+      "visually_inspected": true
+    },
+    {
+      "figure": "fig4_neighborhood",
+      "dimensions": [
+        3080,
+        2880
+      ],
+      "sha256": "68a202922f9574e5f1f2e240acf7c0f906a43f1b78bc057de3718cf526efda36",
+      "visually_inspected": true
+    },
+    {
+      "figure": "fig5_outgroup",
+      "dimensions": [
+        3080,
+        1440
+      ],
+      "sha256": "3b11594dadc09080bff9bef0f340b7a8f9bbfa8369ff01522a193d483954945c",
+      "visually_inspected": true
+    },
+    {
+      "figure": "figS1_ecology",
+      "dimensions": [
+        3080,
+        1560
+      ],
+      "sha256": "918a49bc98aa9f5ecf3ee06f249a3fb43d0ed6f511cbfcc759925f3dee982834",
+      "visually_inspected": true
+    },
+    {
+      "figure": "figS2_terl",
+      "dimensions": [
+        2960,
+        3360
+      ],
+      "sha256": "0ff74259b2f1e9d0d04463759fb64ccd2ebea641b884b40fd9dce7151d08ad98",
+      "visually_inspected": true
+    }
+  ],
+  "renderer": "R 4.5.2 + knitr 1.51 + Pandoc; native Quarto completion restricted by cleanup permissions",
+  "R_lock_packages": 129,
+  "fresh_machine_restore_tested": false,
+  "optional_refit_executed": false,
+  "upstream_annotation_executed": false,
+  "fresh_checkout": {
+    "status": "pass",
+    "copied_source_files": 62,
+    "preexisting_generated_outputs": false,
+    "notebooks": 11,
+    "same_existing_R_library": true,
+    "new_machine_dependency_restore": false,
+    "output_checks": [
+      {
+        "output": "analyses/data/020-export-tables/tables/S14_ARG.csv",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/020-export-tables/tables/S10_EcologyModels.csv",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/020-export-tables/tables/S18_MetadataAudit.csv",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/020-export-tables/tables/S17_ViralLabels.csv",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/020-export-tables/tables/S1_Metadata.csv",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/020-export-tables/tables/S6_Enrichment.csv",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/020-export-tables/tables/S20_SharedSpecies.csv",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/020-export-tables/tables/S5_MergedDefense.csv",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/020-export-tables/tables/S3_DefenseCalls.csv",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/020-export-tables/tables/S15_VF_High.csv",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/020-export-tables/tables/S9_SpatialNull.csv",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/020-export-tables/tables/S16_ViralCatalog.csv",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/020-export-tables/tables/S8_PDC_S31.csv",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/020-export-tables/tables/S12_OutgroupTests.csv",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/020-export-tables/tables/S11_Outgroup.csv",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/020-export-tables/tables/S13_OutgroupModels.csv",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/020-export-tables/tables/S2_Load.csv",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/020-export-tables/tables/S4_AntiDefense.csv",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/020-export-tables/tables/S7_ClusterIntervals.csv",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/020-export-tables/tables/S21_NeighborhoodGenes.csv",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/020-export-tables/tables/S19_SpatialStrata.csv",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/110-figure1-cohort/fig1_cohort.png",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/120-figure2-catalog/fig2_catalog.png",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/130-figure3-enrichment/fig3_enrichment.png",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/140-figure4-neighborhood/fig4_neighborhood.png",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/150-figure5-outgroup/fig5_outgroup.png",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/160-figureS1-ecology/figS1_ecology.png",
+        "byte_identical": true
+      },
+      {
+        "output": "analyses/data/170-figureS2-terl/figS2_terl.png",
+        "byte_identical": true
+      }
+    ],
+    "renderer_bootstrap_note": "A later driver-only addition selects renv/library when restored and propagates library paths; this release uses the existing library, not a freshly restored environment."
+  }
+}
