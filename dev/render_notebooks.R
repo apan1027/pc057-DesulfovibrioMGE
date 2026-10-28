@@ -35,6 +35,12 @@ convert <- function(lines) {
   }
   out
 }
+write_report <- function(input, target, name, pandoc) {
+  status <- system2(pandoc,c(shQuote(input),"--from=markdown","--to=gfm","--output",shQuote(target)))
+  if(status!=0)stop("Pandoc conversion failed for ",name)
+  body <- readLines(target,warn=FALSE)
+  writeLines(c(paste0("# ",name),"Jinlong Ru, Cunli Pan","",body),target)
+}
 for(name in steps) {
   message("Executing frozen workflow notebook: ",name)
   input<-file.path(root,"analyses",paste0(name,".qmd"));rmd<-file.path(stage,paste0(name,".Rmd"));md<-file.path(stage,paste0(name,".md"))
@@ -43,8 +49,7 @@ for(name in steps) {
   knitr::opts_knit$set(root.dir=file.path(root,"analyses"))
   knitr::knit(rmd,output=md,envir=e,quiet=TRUE)
   target<-file.path(root,"analyses",paste0(name,".md"))
-  status<-system2(pandoc,c(shQuote(md),"--from=markdown","--to=gfm","--standalone","--output",shQuote(target)))
-  if(status!=0)stop("Pandoc conversion failed for ",name)
+  write_report(md,target,name,pandoc)
   stopifnot(file.exists(target),file.exists(file.path(root,"analyses/data",name,"receipt.json")))
 }
 message("PASS: ",length(steps)," notebooks executed; no model fitting, bootstrap or annotation invoked.")
