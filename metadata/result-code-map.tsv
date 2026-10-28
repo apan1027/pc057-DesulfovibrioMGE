@@ -1,6 +1,6 @@
 manuscript_output	notebook	implementation	inputs_or_recipe	scope
 Figure 1	analyses/110-figure1-cohort.qmd	R/figures.R	meta; metadata_corrected.csv	Frozen cohort counts and quality
-Figure 2	analyses/120-figure2-catalog.qmd	R/figures.R	per_genome; per_genome_corrected.csv	Separate activity catalogues and 397 confirmed-gut records
+Figure 2	analyses/120-figure2-catalog.qmd	R/figures.R	per_genome; per_genome_corrected.csv	Panel A: 397 confirmed-gut genomes per activity; panel B: all 436 core genomes
 Figure 3	analyses/130-figure3-enrichment.qmd	R/figures.R	enrichment; cluster_intervals	Saved conditional results and carrier-frame intervals
 Figure 4	analyses/140-figure4-neighborhood.qmd	R/figures.R	call_tiers.csv; pdcs31_contig_features.csv; prophage_consensus.csv; spatial	Saved neighbourhood coordinates and nested distance results
 Figure 5	analyses/150-figure5-outgroup.qmd	R/figures.R	outgroup; outgroup_corrected.csv	397 confirmed-gut genomes versus 95 selected eligible outgroups

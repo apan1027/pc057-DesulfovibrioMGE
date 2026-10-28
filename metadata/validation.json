@@ -346,7 +346,8 @@
         "byte_identical": true
       }
     ],
-    "renderer_bootstrap_note": "A later driver-only addition selects renv/library when restored and propagates library paths; this release uses the existing library, not a freshly restored environment."
+    "renderer_bootstrap_note": "A later driver-only addition selects renv/library when restored and propagates library paths; this release uses the existing library, not a freshly restored environment.",
+    "comparison_reference": "Original executed source checkout before the isolated-copy run; identical frozen inputs and the same existing R library. Compared 21 table CSVs and seven figure PNGs. This is not a fresh-machine restore test."
   },
   "presentation_update": {
     "status": "pass",
@@ -361,5 +362,113 @@
     ],
     "metadata_frontmatter_emitted": false,
     "note": "Reports reformatted from saved execution records; initial scientific execution and validation records above are retained."
+  },
+  "table_content_comparison": {
+    "reference_artifact": {
+      "filename": "Supplementary_Data_1_Tables.xlsx",
+      "location": "Manuscript Supplementary Data 1",
+      "sha256": "b9d5848114cf8885b90c1b8f83870879ac0013f3de99234f637a52b07955c443"
+    },
+    "method": "Read the reference workbook with openpyxl (read_only=True, data_only=True); compare each worksheet to its exported CSV, including headers. Check row and column counts. Blank reference cells match empty CSV values; booleans compare case-insensitively; numeric values use relative and absolute tolerance 1e-12; other values compare as strings.",
+    "original_comparison_completed": true,
+    "tables_checked": 21,
+    "cells_checked": 927205,
+    "expected_csv_sha256": {
+      "S10_EcologyModels.csv": "515c7cbaeb12c97cb3798f52fe38c4cc485b4c9429c6ea1cac2615d817021ed0",
+      "S11_Outgroup.csv": "8b72fb1fbb60cbc981ff389c89f64fd46616427f5e5dddaf104fb0827313f8fe",
+      "S12_OutgroupTests.csv": "068c98cad0da3d23cd833f05b273bd73ad349036ae625fe5e321bd1dffe8923d",
+      "S13_OutgroupModels.csv": "7c01a3a407f7e4b7b759f5fcf9cb6e0185b05168792bd535eedcb643c6236287",
+      "S14_ARG.csv": "4827ab5efc7275f1901dd939cd3965390e6202a9aa7129da63f2cd2262185aa8",
+      "S15_VF_High.csv": "2e18155e39f940be0a6ee54c44cb9529773c0d42ad2258bbeb8178346e2d98aa",
+      "S16_ViralCatalog.csv": "3e09bc19430bfc8415561d291a084e88ead2821e21461a54a7ed662fede7b085",
+      "S17_ViralLabels.csv": "e934964ce6835fc630aaa0d7e666f11ea5dc51ae5d47ae76c15937a7775ee8af",
+      "S18_MetadataAudit.csv": "c57059ef777febd5bfea261701bc9664fef09d9e5fff83d70d02d063dc2e6602",
+      "S19_SpatialStrata.csv": "5678484abfe5ba784711a7bebdb359c2bfa262c7fc59e971e631a92ef9ce08cd",
+      "S1_Metadata.csv": "6fa68e3b657e1b70b7976fc4a18e4b1ecb67d7dfe7e0ab4260f23258cca06cb2",
+      "S20_SharedSpecies.csv": "9f00ed5c8fb9898e34c49a8bd8fc3df183eff06e5db6b756e4bc4435880f6a94",
+      "S21_NeighborhoodGenes.csv": "6efd700b2ee66086c3400a20441d22de4280863c1950eaf29989e7bdf00adf34",
+      "S2_Load.csv": "48b5baf93d096be6dbb7352aa738aaeeb86fa78a56879b148776ada2e9248243",
+      "S3_DefenseCalls.csv": "41869b20a2aa8b2878cdf485bb754b17ce05e40e0c45ac186b8525dc9d77d7c6",
+      "S4_AntiDefense.csv": "71764aab602ae6749ae6338e1b615d8002eda394c55b77ae36827dc5013f8810",
+      "S5_MergedDefense.csv": "6ee7386f4734d08cec6adb08f70be5fa36f892e6f833966d3f0f127d94a70e48",
+      "S6_Enrichment.csv": "009fbe0138f2f1ac8104b5b0d089e143af566dcd75be753ca5c3146e3e2ee802",
+      "S7_ClusterIntervals.csv": "fd2a7caca323ef9f9f2ce064b1955e05e44a0c8731097778ba1bb84b7c3fd7c1",
+      "S8_PDC_S31.csv": "72b80343b72291c72362e0970d3374a304a6518b0d3cb911c11795c9d4d70f4c",
+      "S9_SpatialNull.csv": "96b203f69349e668ef7c9d3b0083af6f88a97c5e03af8b881076e4709cd7128d"
+    },
+    "note": "These are fingerprints of the existing outputs from the validated execution, not evidence of a new workflow run."
+  },
+  "documentation_update": {
+    "date": "2026-10-28",
+    "type": "Documentation and validation-record corrections on main; fixed release v2026.10.28.1 retained",
+    "changes": [
+      "S2 copy-only purpose",
+      "Figure 2 panel-specific sampling scope",
+      "Named workbook comparison reference and output fingerprints",
+      "Explicit report-execution provenance"
+    ],
+    "scientific_code_or_input_changes": false,
+    "workflow_reexecuted": false,
+    "existing_data_crosschecks": {
+      "S7_scope_only_changes": {
+        "old_rows": 290,
+        "current_rows": 290,
+        "same_columns": true,
+        "differing_columns": {
+          "scope": 290
+        },
+        "scope_map": [
+          {
+            "old": "all_core_genomes",
+            "new": "activity_carrier_genomes",
+            "rows": 145
+          },
+          {
+            "old": "assigned_species_only",
+            "new": "assigned_species_activity_carriers",
+            "rows": 145
+          }
+        ]
+      },
+      "S21_selected_windows": [
+        {
+          "panel": "A",
+          "source_features": 20,
+          "saved_S21_features": 20,
+          "feature_identity_match": true,
+          "accession_and_coordinates_match": true
+        },
+        {
+          "panel": "B",
+          "source_features": 20,
+          "saved_S21_features": 20,
+          "feature_identity_match": true,
+          "accession_and_coordinates_match": true
+        },
+        {
+          "panel": "C",
+          "source_features": 39,
+          "saved_S21_features": 39,
+          "feature_identity_match": true,
+          "accession_and_coordinates_match": true
+        },
+        {
+          "panel": "D",
+          "source_features": 21,
+          "saved_S21_features": 21,
+          "feature_identity_match": true,
+          "accession_and_coordinates_match": true
+        }
+      ],
+      "S19_prior_generated_vs_frozen": {
+        "generated_rows": 177,
+        "saved_rows": 177,
+        "full_key_and_margin_match": true
+      },
+      "Figure5_selected_counts": {
+        "Desulfovibrio": 397,
+        "Outgroup": 95
+      }
+    }
   }
 }

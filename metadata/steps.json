@@ -51,7 +51,7 @@
   },
   {
     "step": "170-figureS2-terl",
-    "purpose": "Redraw figS2_terl from frozen records",
+    "purpose": "Copy archived canonical figS2_terl image (trees not inferred)",
     "operation": "figS2_terl"
   }
 ]
