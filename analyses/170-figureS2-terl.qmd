@@ -1,6 +1,6 @@
 ---
 title: "170-figureS2-terl"
-subtitle: "Redraw figS2_terl from frozen records"
+subtitle: "Copy archived canonical figS2_terl image (trees not inferred)"
 author:
   - name: Jinlong Ru
   - name: Cunli Pan
@@ -32,6 +32,8 @@ step <- pc057_step_begin(params$name, path_target, path_resource)
 ```
 
 ## Tasks
+
+This step copies the archived canonical Figure S2 image; marker trees are not inferred.
 
 ```{r}
 #| label: run-step

@@ -3,6 +3,8 @@ Jinlong Ru, Cunli Pan
 
 ## Tasks
 
+This step copies the archived canonical Figure S2 image; marker trees are not inferred.
+
 ``` r
 pc057_draw_figure(step, "figS2_terl")
 ```
