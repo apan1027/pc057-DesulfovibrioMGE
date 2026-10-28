@@ -1,0 +1,15 @@
+project:
+  type: default
+  output-dir: "."
+  render:
+    - "*.qmd"
+format: gfm
+execute:
+  freeze: false
+  cache: false
+  echo: true
+  warning: true
+  message: true
+  error: false
+toc: true
+number-sections: false

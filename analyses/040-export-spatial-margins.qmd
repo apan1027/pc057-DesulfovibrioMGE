@@ -1,0 +1,47 @@
+---
+title: "040-export-spatial-margins"
+subtitle: "Export and verify full and clone spatial margins"
+author:
+  - name: Jinlong Ru
+  - name: Cunli Pan
+params:
+  name: "040-export-spatial-margins"
+---
+
+This step reads the registered frozen inputs. It does not fit models, run bootstrap resampling, call annotations or update the original database. See the [output map](../metadata/result-code-map.tsv) and [reproducibility scope](../docs/reproducibility.md).
+
+```{r}
+#| label: params
+#| eval: !expr interactive()
+#| include: false
+params <- list(name = "040-export-spatial-margins")
+```
+
+```{r}
+#| label: setup
+#| include: false
+wd <- "analyses"
+if (basename(getwd()) != wd) setwd(here::here(wd))
+here::i_am(paste0(params$name, ".qmd"), uuid = "87a63913-c423-4f99-8fc8-97d25813cb8d")
+qproj::proj_create_dir_target(params$name, clean = FALSE)
+path_target <- qproj::proj_path_target(params$name)
+path_source <- qproj::proj_path_source(params$name)
+path_raw <- path_source("00-raw")
+path_resource <- here::here(path_raw, "d00-resource")
+path_data <- here::here(path_raw, paste0("d", params$name))
+suppressPackageStartupMessages(devtools::load_all())
+step <- pc057_step_begin(params$name, path_target, path_resource)
+```
+
+## Tasks
+
+```{r}
+#| label: run-step
+pc057_export_spatial_margins(step)
+```
+
+```{r}
+#| label: publish-step
+receipt <- pc057_step_finish(step)
+print(receipt)
+```
